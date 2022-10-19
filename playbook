@@ -1,0 +1,6 @@
+---
+  - hosts: all
+   become: yes
+   tasks:
+   - yum: name=php state=present
+   -yum: name:tree state:present
